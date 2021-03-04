@@ -4,7 +4,7 @@ function is0dd(value) {
   else
     return false;
 }
-console.log(is0dd(2))
+console.log(is0dd(1))
 
 function isEven(value) {
   if (is0dd(value))
