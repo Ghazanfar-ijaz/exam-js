@@ -38,3 +38,12 @@ const makeUnique = (tab) => {
 }
 
 console.log(makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]))
+
+// 2ème méthode:
+
+const makeUnique = (tab1) => {
+  const nwtab = [...new Set(tab1)]
+  nwtab.sort((a, b) => a - b);
+  return console.log(nwtab)
+}
+makeUnique([1, 2, 1, 3, 2, 4, 5, 7, 5, 1]) // returns [1, 2, 3, 4, 5, 7]
