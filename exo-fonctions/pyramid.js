@@ -23,4 +23,5 @@ const showStars = (nbBase, reverse, pyramid) => {
 
 const nbBase = 10
 
+showStars(nbBase, true, 'A')
 showStars(nbBase, false, 'A')

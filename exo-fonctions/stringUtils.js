@@ -1,10 +1,15 @@
+// Ecrire une fonction reverseStr qui prend en paramètre une string et qui retourne cette string inversé.
+
 const reverseStr = (str) => {
-  let mot = str.split('').reverse().join('')
-  return str
+  return str.split('').reverse().join('')
 }
-reverseStr('Hello!')
 
 console.log(reverseStr('Hello!'))
+
+/*
+Ajouter au fichier précédent une fonction isPalindrome qui prend une string en paramètre
+et qui retourne true si la string est un palindrome, sinon la fonction devra retourner false
+*/
 
 const isPalindrome = (str) => {
   if (str === reverseStr(str)) {
@@ -14,4 +19,4 @@ const isPalindrome = (str) => {
   }
 }
 
-console.log(isPalindrome('salut'))
+console.log(isPalindrome('radar'))

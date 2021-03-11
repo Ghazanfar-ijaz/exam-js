@@ -9,3 +9,5 @@ const typeOf = (variable) => {
 }
 
 typeOf("good")
+typeOf(123)
+typeOf([1, 2, 3])
